@@ -1,0 +1,10 @@
+🔹 Conhecendo o Microsoft Copilot Studio
+- O Copilot Studio é uma ferramenta da Microsoft que permite criar copilotos inteligentes para automatizar tarefas e melhorar a produtividade.
+- Ele se integra ao Microsoft 365 e outras plataformas, permitindo acesso a arquivos, e-mails e agendas.
+- O Copilot Studio pode ser usado para criar chatbots personalizados, conectando-se a diferentes serviços e bases de dados.
+- Há opções para extender funcionalidades com conectores personalizados e integração com Azure AI.
+🔹 Trabalhando com Ambientes no Microsoft Copilot Studio
+- Os ambientes são espaços onde os agentes (copilotos) são criados e gerenciados.
+- É possível alternar entre ambientes de desenvolvimento, teste e produção, garantindo segurança e estabilidade.
+- Cada ambiente pode ter diferentes funções, requisitos de segurança e públicos-alvo.
+- A criação de ambientes pode ser feita pelo Centro de Administração do Power Platform, permitindo configurar armazenamento de dados e localização.
