@@ -71,7 +71,7 @@ if result.reason == speechsdk.ResultReason.RecognizedSpeech:
     print("Você disse: {}".format(result.text))
 
 ```
-##🧾 2. Extração de Entidades Nomeadas
+## 🧾 2. Extração de Entidades Nomeadas
 ```
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
@@ -87,13 +87,12 @@ response = client.recognize_entities(documents=documents)[0]
 for entity in response.entities:
     print(f"Texto: {entity.text} | Categoria: {entity.category} | Subcategoria: {entity.subcategory}")
 ```
-
-##✅ Conclusão
+## ✅ Conclusão
 O laboratório proporcionou uma experiência prática valiosa na utilização das ferramentas Azure Speech Studio e Language Studio.
 Aprendemos a integrar a inteligência artificial em processos de análise de fala e linguagem natural, desenvolvendo soluções mais inteligentes e eficientes para diversas aplicações.
 
-##🔗 Referências
+## 🔗 Referências
 -Documentação Language Studio
 -Documentação Speech Studio
 
-#Emanuel Siqueira Lannes
+# Emanuel Siqueira Lannes
